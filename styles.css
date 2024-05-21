@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Noto;
+    src: url('NotoSans-VariableFont_wdth,wght.ttf');
+}
+@font-face {
+    font-family: Rubik;
+    src: url('Rubik-ExtraBold.ttf');
+}
+@font-face {
+    font-family: RubikItalic;
+    src: url('Rubik-MediumItalic.ttf');
+}
+
+
+body {
+    background-color:#e3e3e3;
+}
+
+#myName {
+    color:coral;
+    margin:0;
+    font-size:3em;
+    font-family:Noto; /* should i put a back up font? */
+}
+#myContactInfo {
+    color:coral;
+    font-family:Noto;
+    margin:0;
+}
+#myPfp {
+    width:20%;
+    max-width:200px;
+    border-radius:50%;
+}
+#header {
+    display:flex;
+    justify-content:center;
+    gap:5%;
+    align-items:center;
+}
+#myNameAndContactInfo {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+
+.education {
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.education-photo {
+    width:100%;
+    height:auto;
+}
+.education-panel {
+    background-color: rgb(20,20,20);
+    color:white;
+    width:450px;
+    padding:10px;
+    border-radius:10px/5px;
+    margin:5px;
+}
+
+
+
+
+.familiarTech {
+    font-size:2.75em;
+    border-radius:10%;
+    margin:10px;
+    color:rgb(20,20,20);
+}
+.skillsetImage {
+    width:70px;
+}
+#familiarTechDiv {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.sectionHeading {
+    font-family:Noto;
+}
+
+.spire {
+    background-color: #B7252B;
+}
+.aptive {
+    background-color: #344C38;
+}
+.jurrus {
+    background-color: #ba5d00;
+}
+.google {
+    background-color: #34A853;
+}
+.nasa {
+    background-color: #FF3C00;
+}
+
+.fa-link {
+    color:white;
+    float:right;
+}
+.fa-link:hover {
+    color:gray;
+}
+
+#workExperienceDiv {
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.workExperiencePanel {
+    width:500px;
+    border-radius: 10px/5px;
+    padding:10px;
+    margin:10px;
+    color:white;
+}
+.jobTitle {
+    color:white;
+    font-size:2em;
+    margin:0;
+    font-family:Noto;
+}
+.companyName {
+    color:#dedede;
+    margin:0;
+    text-transform:uppercase;
+    font-family:Rubik;
+}
+.jobDates {
+    margin:0;
+    font-family:RubikItalic;
+}
+.jobDesc {
+    margin:0;
+    font-family:Noto;
+}
+
+
